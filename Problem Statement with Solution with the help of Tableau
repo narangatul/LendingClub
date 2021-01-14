@@ -1,0 +1,8 @@
+Question 1: Assuming the loans with status that are "Current", "Issued" and "Fully Paid" can be called “Good Loans”, what is the percentage of Good Loans for each loan segment? Please segment the loans by term length (36 or 60 month) and grade.
+Solution: First I have divided the Loan amount into two parts “Good Loans” and “Bad Loans” according to their status provided and made a donut on “Good Loans” data. To implement this solution, the “Donut chart” is showing “Good Loans” which is segmented by grades (A, B, C, D, E, F and G) and to check the data for 36-months or 60-months length, a filter is also provided to see in which period the “Good Loans” are landing by percentage of total amount of loans according to their grades.
+
+Question 2: Looking deeper at Good Loans, what can we learn from employment characteristics of the borrowers, such as job title and employment length (years)? Are there any themes?
+Solution: To look deeper into “Good Loans”, I have created a trend “Bar Chart” with “Employment Length” and “Good Loans” amount to see how “Good Loans” amount is changing with time(years). And to go more deeply on “Good Loans”, I have created a chart on tooltip for showing Top 10 “Job Title” with “Good Loans” amount for specific year.
+
+Question 3: What are the most frequent Purpose values for Bad Loans? What can we infer from this?
+Solution: To see most frequent “Bad Loans”, I have created a horizontal “Bar Chart” and sort it according to their “Bad Loans” amount descending. After sorting we can easily see that “DEBT_CONSOLIDATION” is the most affected bad loan “Purpose wise”.
